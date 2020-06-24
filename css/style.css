@@ -263,3 +263,15 @@ width:100%;
 	src: url("..//fonts/M-ANCIN.svg#MacedonianAncient") format("svg");
 	font-weight:normal;font-style:normal;
 }
+body {
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0.1s;
+}
+
+@-webkit-keyframes fontfix {
+  from { opacity: 1; }
+  to { opacity: 1; }
+}
